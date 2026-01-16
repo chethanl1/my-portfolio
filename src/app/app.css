@@ -47,6 +47,88 @@
   animation: pulse-glow 2s ease-in-out infinite;
 }
 
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: all;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 15px 30px rgba(59, 130, 246, 0.5);
+}
+
+.scroll-to-top:active {
+  transform: scale(0.95);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: all;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 15px 30px rgba(59, 130, 246, 0.5);
+}
+
+.scroll-to-top:active {
+  transform: scale(0.95);
+}
+
 /* Smooth focus states */
 a:focus-visible,
 button:focus-visible {
