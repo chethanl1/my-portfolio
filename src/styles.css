@@ -1,3 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "tailwindcss";
+/* app.component.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chethan Sir, please ensure Tailwind CSS is installed in your project.
+  These imports are essential for the layout classes to work.
+*/
+
+
+:root {
+  --blue-primary: #2563eb;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Custom transitions for smoother UI */
+.transition-all {
+  transition-duration: 400ms;
+}
+
+/* Custom hide scrollbar for clean look if needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

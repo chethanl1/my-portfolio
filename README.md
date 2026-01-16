@@ -54,6 +54,51 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
+## Deployment to Firebase Hosting
+
+### Prerequisites
+- Node.js installed
+- Firebase CLI installed globally
+
+### Step 1: Install Firebase CLI
+```bash
+npm install -g firebase-tools
+```
+
+### Step 2: Login to Firebase
+```bash
+firebase login
+```
+
+### Step 3: Initialize Firebase Hosting
+```bash
+firebase init hosting
+```
+
+When prompted:
+- Select your existing project: **chethanresume**
+- Public directory: **dist/my-portfolio/browser**
+- Configure as single-page app: **Yes**
+- Overwrite index.html: **No**
+
+### Step 4: Build Your Application
+```bash
+npm run build
+```
+
+### Step 5: Deploy to Firebase
+```bash
+firebase deploy
+```
+
+Your portfolio will be live at: `https://chethanresume.web.app`
+
+### Quick Deploy Command
+After initial setup, you can deploy updates with:
+```bash
+npm run build && firebase deploy
+```
+
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
