@@ -13,7 +13,7 @@ export class App implements OnInit, AfterViewInit {
   location = 'Bengaluru, India';
   email = 'chethanl3079@gmail.com';
   phone = '+91-9663308432';
-  summary = 'Senior Full-Stack Engineer with 7+ years building high-performance enterprise systems at Siemens. Specialized in Node.js, Java, and AWS microservices architecture. Reduced query times by 60%, maintained 99.9% uptime across production apps, and delivered 25+ scalable solutions serving thousands of users.';
+  summary = 'Senior Full-Stack Engineer with 7+ years building high-performance enterprise systems at Siemens. Specialized in Node.js, Java Spring Boot, and AWS microservices architecture. Reduced query times by 60%, maintained 99.9% uptime across production apps, and delivered 15+ scalable solutions serving thousands of users.';
   resumeUrl = 'ChethanL_FullStack_Developer_7Years_Experience.pdf';
   linkedInUrl = 'https://www.linkedin.com/in/chethan-l-fullstack-developer/';
   heroTitle = { line1: 'Full-Stack', line2: 'Developer', line3: 'Cloud & Microservices Expert' };
